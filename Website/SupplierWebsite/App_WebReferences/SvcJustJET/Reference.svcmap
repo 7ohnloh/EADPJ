@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e6f84d4d-ba6e-48cc-adcb-63ca768bd911" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:54676/JustJET.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="JustJET.disco" MetadataType="Disco" ID="86e87f81-d8f3-4872-9924-fc147131518e" SourceId="1" SourceUrl="http://localhost:54676/JustJET.svc?disco" />
+    <MetadataFile FileName="JustJET.xsd" MetadataType="Schema" ID="d6e0d86d-2f8a-4a64-8c94-d1c2bd2c8250" SourceId="1" SourceUrl="http://localhost:54676/JustJET.svc?xsd=xsd2" />
+    <MetadataFile FileName="JustJET.wsdl" MetadataType="Wsdl" ID="01988c40-b4fb-42ec-b0a9-f1ee10a466d1" SourceId="1" SourceUrl="http://localhost:54676/JustJET.svc?wsdl" />
+    <MetadataFile FileName="JustJET1.xsd" MetadataType="Schema" ID="8b76b78c-cb5e-4fe4-a27d-c4711bae126f" SourceId="1" SourceUrl="http://localhost:54676/JustJET.svc?xsd=xsd1" />
+    <MetadataFile FileName="JustJET2.xsd" MetadataType="Schema" ID="68373f62-64a4-4c05-8db5-a605ba9c4193" SourceId="1" SourceUrl="http://localhost:54676/JustJET.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
